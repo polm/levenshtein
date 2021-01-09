@@ -15,7 +15,7 @@ if sys.version_info >= (3, 0):
 else:
     _open = open
 
-setup(name='python-Levenshtein',
+setup(name='levenshtein',
       version=version,
       description="Python extension for computing string edit distances and similarities.",
       long_description=_open("README.rst").read() + "\n" +
@@ -29,9 +29,9 @@ setup(name='python-Levenshtein',
         "Programming Language :: Python :: Implementation :: CPython"
         ],
       keywords='string Levenshtein comparison edit-distance',
-      author='Antti Haapala',
-      author_email='antti@haapala.name',
-      url='http://github.com/ztane/python-Levenshtein',
+      author="Paul O'Leary McCann",
+      author_email='polm@dampfkraft.com',
+      url='http://github.com/polm/levenshtein',
       license='GPL',
       packages=['Levenshtein'],
       namespace_packages=[],

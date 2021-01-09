@@ -1,5 +1,7 @@
 .. contents ::
 
+**This is a fork to get wheels on PyPI. It is a work in progress.**
+
 Introduction
 ------------
 
