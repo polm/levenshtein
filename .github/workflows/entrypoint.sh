@@ -14,7 +14,7 @@ for PYVER in cp35-cp35m cp36-cp36m cp37-cp37m cp38-cp38 cp39-cp39; do
 done
 
 # fix the wheels (bundles libs)
-for wheel in /github/workspace/wheels/*.whl; do
+for wheel in /github/workspace/wheels/*64.whl; do
   auditwheel repair "$wheel" --plat manylinux1_x86_64 -w /github/workspace/manylinux1-wheels
 done
 
